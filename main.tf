@@ -31,7 +31,7 @@ resource "docker_image" "mysql_image" {
 }
 
 resource "docker_network" "public_bridge_network" {
-  name   = "public_network"
+  name   = "ghost_public_network"
   driver = "overlay"
 }
 
