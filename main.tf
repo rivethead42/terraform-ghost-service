@@ -66,7 +66,7 @@ resource "docker_service" "ghost-service" {
   endpoint_spec {
     ports {
       target_port    = "2368"
-      published_port = "8080"
+      published_port = "8082"
     }
   }
 }
