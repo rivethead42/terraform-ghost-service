@@ -14,7 +14,7 @@ variable "ghost_db_name" {
 
 variable "mysql_network_alias" {
   description = "The network alias for MySQL."
-  default     = "db"
+  default     = "ghost_db"
 }
 
 variable "ghost_network_alias" {
